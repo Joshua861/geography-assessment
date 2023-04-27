@@ -539,7 +539,6 @@ figcaption {
     -ms-border-radius: 0.5em;
     -o-border-radius: 0.5em;
     width: fit-content;
-    background-color: rgba(255, 255, 255, 0.3);
     padding: .4em;
 }
 

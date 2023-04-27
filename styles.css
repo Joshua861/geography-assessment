@@ -50,7 +50,7 @@
 
 @media only screen and (max-width: 1200px) {
     figcaption {
-        width: 90% !important;
+        max-width: 90% !important;
     }
 }
 
@@ -508,7 +508,7 @@ hr {
 }
 
 footer {
-    font-size: 0.7em;
+    font-size: 1em;
     color: #555;
     font-style: italic;
 }
@@ -524,12 +524,13 @@ img {
     -moz-border-radius: 1.5em;
     -ms-border-radius: 1.5em;
     -o-border-radius: 1.5em;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.352);
 }
 
 figcaption {
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    max-width: 70%;
     border-radius: 0.5em;
     padding-top: 3px;
     text-align: center;
@@ -537,6 +538,9 @@ figcaption {
     -moz-border-radius: 0.5em;
     -ms-border-radius: 0.5em;
     -o-border-radius: 0.5em;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: .4em;
 }
 
 ::-moz-selection {

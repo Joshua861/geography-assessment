@@ -1,16 +1,51 @@
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 800px) {
     article {
-        padding-right: 10% !important;
-        padding-left: 10% !important;
+        padding-right: 5%;
+        padding-left: 5%;
     }
 }
+@media only screen and (max-width: 1100px) and (min-width: 800px){
+    article {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    blockquote {
+        width: 70% !important;
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 1100px) {
+    article {
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    article {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+    article {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    img {
+        width: 70% !important;
+    }
+    article {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+}
+
 h1 {
     text-align: center;
     font-size: 2.5em;
 }
 article {
-    padding-left: 30%;
-    padding-right: 30%;
     font-family: "Open Sans", sans-serif;
 }
 mark {
@@ -108,12 +143,13 @@ blockquote {
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
     border-radius: 0.5em;
-    left: 10%;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
     -webkit-border-radius: 0.5em;
     -moz-border-radius: 0.5em;
     -ms-border-radius: 0.5em;
     -o-border-radius: 0.5em;
+    width: 50%;
+    margin: auto;
 }
 blockquote:before {
     color: #ccc;

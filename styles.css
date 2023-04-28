@@ -54,6 +54,12 @@
     }
 }
 
+body {
+    background-image: url('bg.png');
+    background-size: contain;
+    background-position: center;
+}
+
 h1 {
     text-align: center;
     font-size: 2.5em;

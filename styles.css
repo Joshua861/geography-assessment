@@ -96,6 +96,7 @@ button {
     -moz-transition: all 0.15s ease-in-out;
     -ms-transition: all 0.15s ease-in-out;
     -o-transition: all 0.15s ease-in-out;
+    margin: 2px;
 }
 
 button:hover {

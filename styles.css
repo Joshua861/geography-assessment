@@ -3,6 +3,7 @@
         padding-right: 5%;
         padding-left: 5%;
     }
+
     body {
         background-image: none !important;
     }
@@ -17,10 +18,12 @@
     blockquote {
         width: 70% !important;
     }
+
     body {
         background-image: none !important;
     }
 }
+
 @media only screen and (max-width: 1100px) and (min-width: 900px) {
     article {
         padding-right: 10%;
@@ -72,8 +75,8 @@
 
 body {
     background-image: url('bg.png');
+    size: contain;
     width: 100%;
-    height: auto;
     background-position: center;
 }
 

@@ -3,6 +3,9 @@
         padding-right: 5%;
         padding-left: 5%;
     }
+    body {
+        background-image: none;
+    }
 }
 
 @media only screen and (max-width: 1100px) and (min-width: 800px) {
@@ -13,6 +16,9 @@
 
     blockquote {
         width: 70% !important;
+    }
+    body {
+        background-image: none;
     }
 }
 

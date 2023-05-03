@@ -227,17 +227,11 @@ table {
     width: 70%;
     border-collapse: collapse;
     border: 2px solid #ccc;
-    border-radius: 0.5em !important;
     margin: auto;
     background-color: #fff;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
     font-size: 1.2em;
-    -webkit-border-radius: 0.5em !important;
-    -moz-border-radius: 0.5em !important;
-    -ms-border-radius: 0.5em !important;
-    -o-border-radius: 0.5em !important;
 }
-
 th,
 td {
     padding: 12px;
@@ -247,7 +241,12 @@ td {
 thead {
     background-color: #f0f0f0;
 }
-
+table, th, td, thead, tr {
+    border-radius: 0.5em !important;
+    -webkit-border-radius: 0.5em !important;
+    -moz-border-radius: 0.5em !important;
+    -ms-border-radius: 0.5em !important;
+    -o-border-radius: 0.5em !important;
 textarea {
     border: 2px solid #333;
     border-radius: 1em;

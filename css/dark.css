@@ -47,6 +47,11 @@
     padding-left: 30%;
   }
 }
+@mesia only screen and (max-width: 1200px) {
+  img {
+    width: 95%;
+  }
+}
 h1:before {
   content: "# ";
   color: #ee3;

@@ -48,7 +48,7 @@
   }
 }
 @mesia only screen and (max-width: 1200px) {
-  img {
+  img, figure {
     width: 95%;
   }
 }

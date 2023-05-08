@@ -47,11 +47,6 @@
     padding-left: 30%;
   }
 }
-@mesia only screen and (max-width: 1200px) {
-  img, figure {
-    width: 95%;
-  }
-}
 h1:before {
   content: "# ";
   color: #ee3;
@@ -227,7 +222,6 @@ th:hover
 select:focus {
   outline: none;
 }
-
 select option {
   background-color: #191919;
   color: #fff;
@@ -323,6 +317,7 @@ img {
 }
 img:hover {
   transform: scale(1.05) rotate(-2deg);
+  margin-bottom: 0.8em;
 }
 cite:before {
   content: "(";

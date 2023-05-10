@@ -141,3 +141,11 @@ td, tbody, th, tr, tfoot {
   border: 3px solid white;
   padding: .3em .7em;
 }
+blockquote:before {
+  content: '"';
+  color: #999;
+}
+blockquote:after {
+  content: '"';
+  color: #999;
+}

@@ -1,7 +1,6 @@
 // Select the theme select element and the theme link
 const themeSelect = document.querySelector("#theme-select");
 const themeLink = document.querySelector("#theme-link");
-const overlay = document.querySelector("#overlay");
 
 // Get the selected theme from local storage or default to "modern.css"
 const savedTheme = localStorage.getItem("selectedTheme") || "modern.css";
@@ -27,7 +26,3 @@ themeSelect.addEventListener("change", function() {
   localStorage.setItem("selectedTheme", selectedTheme);
   overlay.style.display = "none";
 });
-window.addEventListener("load", function() {
-    overlay.style.display = "none";
-  });
-  

@@ -4,13 +4,11 @@ const overlay = document.querySelector('#load-bg')
 window.addEventListener('load', function () {
   overlay.style.display = 'none'
 })
-
-const loadingText = document.getElementById('loading-text');
 let dots = '';
 
 function updateLoadingText() {
   loadingText.textContent = `Loading${dots}`;
-  dots += '..';
+  dots += '.';
   if (dots.length > 3) {
     dots = '';
   }

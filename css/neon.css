@@ -213,12 +213,6 @@ select:hover {
   border-color: #3ae;
   color: #191919;
 }
-td:hover,
-th:hover
- {
-  transform: scale(1.05);
-  transition: 0.1s;
-}
 select:focus {
   outline: none;
 }

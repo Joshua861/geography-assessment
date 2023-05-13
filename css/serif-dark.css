@@ -159,3 +159,32 @@ blockquote {
   border-left: 5px solid #444;
   padding-left: 1em;
 }
+audio {
+  border-radius: .5em;
+}
+dialog {
+  border: 0;
+  border-radius: .5em;
+  padding: 1em;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+p > code,
+li > code,
+dd > code,
+td > code {
+  background: #222;
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  padding: .1rem .3rem .2rem;
+  border-radius: .2rem;
+}
+cite {
+  color: #999;
+}
+del {
+  background-color: #d33;
+  padding: 0 .15em;
+}
+
